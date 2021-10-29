@@ -1,7 +1,7 @@
 const modoLivre = () => {
 
 	mostraEPula (`<center><h1>Jogo da Adivinhação</h1>
-		<big>v.0.3</big>
+		<big>v.0.4</big>
 		<hr>
 		<h3> Modo Livre </h3>
 		Nesse modo, você tem infinitas tentativas para acertar o número que vou sortear, e é você quem decide o número limite do sorteio!
