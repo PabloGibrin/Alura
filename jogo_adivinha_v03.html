@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 
 <center><h1>Jogo da Adivinhação</h1>
-<big>v.0.3</big>
+<big>v.0.4</big>
 <hr>
 <h3> Bem vindo ao Jogo da Adivinhação </h3>
 Escolha o modo de jogo que você quer jogar!
@@ -27,5 +27,6 @@ Escolha o modo de jogo que você quer jogar!
 	const sorteioMedio = () => Math.round(Math.random() * 100);
 	const sorteioDificil = () => Math.round(Math.random() * 100);
 	const sorteioImpossivel = () => Math.round(Math.random() * 1000);
+	const sorteioSenha = () => Math.round(Math.random() * 9);
 	const perguntarNumero = (pergunta) => parseInt(prompt(pergunta));
 </script>
