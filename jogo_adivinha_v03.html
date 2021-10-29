@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<center><h1>Jogo da Adivinhação</h1>
+<big>v.0.3</big>
+<hr>
+<h3> Bem vindo ao Jogo da Adivinhação </h3>
+Escolha o modo de jogo que você quer jogar!
+<br>
+<br>
+<button onclick= "modoLivre()" > 
+	Modo Livre 
+</button>
+<button onclick= "modoDesafiante()" >
+ 	Modo Desafiante 
+</button> 
+<button onclick= "modoSenha()" > 
+	Modo Senha 
+</button></center>
+
+<script src="./modoLivre.js"></script>
+<script src="./modoDesafiante.js"></script>
+<script src="./modoSenha.js"></script>
+<script>
+	const mostraEPula = (texto) => document.write(`${texto} <br />`);
+	const sorteioLivre = (limite) => Math.round(Math.random() * limite);
+	const sorteioFacil = () => Math.round(Math.random() * 10);
+	const sorteioMedio = () => Math.round(Math.random() * 100);
+	const sorteioDificil = () => Math.round(Math.random() * 100);
+	const sorteioImpossivel = () => Math.round(Math.random() * 1000);
+	const perguntarNumero = (pergunta) => parseInt(prompt(pergunta));
+</script>
