@@ -1,7 +1,7 @@
 const modoDesafiante = () => {
 
 	mostraEPula (`<center><h1>Jogo da Adivinhação</h1>
-		<big>v.0.3</big>
+		<big>v.0.4</big>
 		<hr>
 		<h3> Modo Desafiante </h3>
 		Nesse modo, seu objetivo é acertar o número que vou sortear antes que suas vidas se esgotem!
